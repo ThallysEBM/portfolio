@@ -30,6 +30,13 @@
 body {
     background-color: var(--gray-200);
 }
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, p {
+    color: var(--gray-600);
+}
 .container {
     max-width: 65rem;
     margin: auto;
