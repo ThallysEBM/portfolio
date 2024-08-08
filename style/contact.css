@@ -1,0 +1,48 @@
+.contact {
+    background-image: url(/assets/images/Background_Contacts.png);
+    background-size: cover;
+    padding: 8rem 0 12.5rem;
+    display: grid;
+    justify-items: center;
+
+    .subtitle-section {
+        color: var(--purple);
+    }
+    p {
+       font: var(--text-md); 
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 3rem;
+        li {
+            margin-bottom: 1rem;
+            .card-contact {
+                display: flex;            
+                padding: 1.25rem;
+                background-color: var(--gray-300);
+                width: 25rem;
+                height: 4.25rem;
+                justify-content: space-between;
+                border-radius: 0.5rem;
+    
+                .social {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.75rem;
+                    img {
+                        max-width: 1.5rem;
+                    }
+                    
+                }
+                .icon-arrow {
+                    width: 1.25rem;
+                }
+            }
+        }
+
+
+        
+    }
+
+}
