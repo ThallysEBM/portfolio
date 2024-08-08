@@ -1,16 +1,8 @@
 .projects {
-    
+    padding: 4.5rem 0 9rem;
     display: grid;
     justify-items: center;
 
-    h4 {
-        font: var(--Subtitle);
-        color: var(--red);
-        margin-bottom: 0.5rem;
-    }
-    h2 {
-        font: var(--title-md);
-    }
 
 
 

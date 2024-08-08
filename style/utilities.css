@@ -16,3 +16,14 @@
     font: var(--text-md);
     color: var(--gray-500);
 }
+
+.title-section {    
+    font: var(--title-md);
+}
+
+.subtitle-section {
+    font: var(--Subtitle);
+    color: var(--red);
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
